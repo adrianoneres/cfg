@@ -36,11 +36,11 @@ Download a vim theme, for example [Dracula](https://draculatheme.com/vim/) and a
 ## Install plugins:
 
 ```sh
- git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree	
- git clone https://github.com/mattn/emmet-vim.git
- git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
- git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
- git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree	
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
+git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 ```
 
 
