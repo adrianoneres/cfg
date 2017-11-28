@@ -46,7 +46,7 @@ git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 
 ## Add Powerline configuration to ~/.bashrc:
 
-``sh
+```sh
 if [ -f `which powerline-daemon` ]; then
   powerline-daemon -q
   POWERLINE_BASH_CONTINUATION=1
