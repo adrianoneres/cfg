@@ -47,13 +47,13 @@ git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 ## Add PS1 configuration to ~/.bashrc
 
 ```sh
-export PS1="\e[0;1;32m\u@\h\e[0;1;37m: \e[0;1;34m\w \e[0;1;37m\$ \e[m"
+export PS1="\[\e[1;32m\]\u@\h\[\e[1;37m\]:\[\e[1;34m\]\w\[\e[1;37m\]\\$ \[$(tput sgr0)\]\[\e[m\]"
 ```
 
 And for root:
 
 ```sh
-export PS1="\e[0;1;31m\u@\h\e[0;1;37m: \e[0;1;34m\w \e[0;1;37m\$ \e[m"
+export PS1="\[\e[1;31m\]\u@\h\[\e[1;37m\]:\[\e[1;34m\]\w\[\e[1;37m\]\\$ \[$(tput sgr0)\]\[\e[m\]"
 ```
 
 ## Add EDITOR configuration to ~/.bashrc
