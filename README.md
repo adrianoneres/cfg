@@ -44,7 +44,7 @@ git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typesc
 git clone git://github.com/jiangmiao/auto-pairs.git ~/.vim/bundle/auto-pairs
 ```
 
-## Add Powerline configuration to ~/.bashrc:
+## Add Powerline configuration to ~/.bashrc...:
 
 ```sh
 if [ -f `which powerline-daemon` ]; then
@@ -53,4 +53,10 @@ if [ -f `which powerline-daemon` ]; then
   POWERLINE_BASH_SELECT=1
   . /usr/share/powerline/bash/powerline.sh
 fi
+```
+
+## ...or add PS1 configuration do ~/.bashrc:
+
+```sh
+export PS1="\e[0;1;32m\u@\h\e[0;1;37m: \e[0;1;34m\w \e[0;1;37m\$ \e[m"
 ```
