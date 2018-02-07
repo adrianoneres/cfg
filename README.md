@@ -55,3 +55,9 @@ And for root:
 ```sh
 export PS1="\e[0;1;31m\u@\h\e[0;1;37m: \e[0;1;34m\w \e[0;1;37m\$ \e[m"
 ```
+
+## Add EDITOR configuration to ~/.bashrc
+
+```sh
+export EDITOR="/usr/bin/vim"
+```
