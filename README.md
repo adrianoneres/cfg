@@ -1,4 +1,4 @@
-# Vim configuration
+# Configurations
 
 ## Create configuration file
 
