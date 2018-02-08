@@ -1,6 +1,6 @@
 # Configurations
 
-## Create configuration file
+## Create configuration file for Vim
 
 In home dir create **.vimrc** file and add the **.vimrc** file in this project to it:
 
@@ -9,7 +9,7 @@ cd ~
 vim .vimrc
 ```
 
-## Create main directory
+## Create main directory for Vim
 
  In home dir create **.vim** directory:
 	
