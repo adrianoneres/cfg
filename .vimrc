@@ -15,9 +15,15 @@ set number
 set relativenumber
 set incsearch
 set hlsearch
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
+let g:airline_theme='violet'
+let g:airline_right_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_left_alt_sep= ''
+let g:airline_left_sep = ''
+
 set laststatus=2
 set showtabline=2
 set noshowmode 
@@ -25,7 +31,7 @@ set t_Co=256
 
 let g:user_emmet_leader_key=','
 let g:ctrlp_prompt_mappings = { 'AcceptSelection("e")': [], 'AcceptSelection("t")': ['<cr>', '<c-m>'] }
-let g:typescript_compiler_binary = 'tsc'
-let g:typescript_compiler_options = ''
+let g:type_compiler_binary = 'tsc'
+let g:type_compiler_options = ''
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost l* nested lwindow
