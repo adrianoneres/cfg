@@ -37,7 +37,8 @@ Download a vim theme, for example [Dracula](https://draculatheme.com/vim/) and a
 
 ```sh
 sudo dnf install powerline
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree	
+git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git ~/.vim/bundle/nerdtree-git-plugin
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
