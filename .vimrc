@@ -15,6 +15,7 @@ set number
 set relativenumber
 set incsearch
 set hlsearch
+au Filetype python setl et ts=4 sw=4
 
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
