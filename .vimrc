@@ -50,6 +50,7 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeIgnore=['__pycache__', '\~$']
 let NERDTreeIgnore=['\.pyc$', '\~$']
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
