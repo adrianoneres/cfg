@@ -9,6 +9,12 @@ cd ~
 vim .vimrc
 ```
 
+## Install Powerline
+
+```sh
+pip install --user powerline-status
+```
+
 ## Create main directory for Vim
 
  In home dir create **.vim** directory:
