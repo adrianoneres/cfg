@@ -35,6 +35,8 @@ au BufNewFile,BufRead *.py
     \ set autoindent |
     \ set fileformat=unix
 
+set  rtp+=/home/nano/.local/lib/python2.7/site-packages/powerline/bindings/vim
+
 let g:SimpylFold_docstring_preview=1
 
 let g:airline#extensions#tabline#enabled = 1
