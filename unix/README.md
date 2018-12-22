@@ -1,4 +1,4 @@
-# Linux configurations
+# Unix configurations
 
 ## Add PS1 configuration to ~/.bashrc
 
