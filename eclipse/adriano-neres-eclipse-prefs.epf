@@ -1,4 +1,4 @@
-#Sat Dec 22 12:55:19 BRST 2018
+#Sat Dec 22 12:58:53 BRST 2018
 \!/=
 /configuration/org.eclipse.core.net/org.eclipse.core.net.hasMigrated=true
 /configuration/org.eclipse.equinox.p2.garbagecollector/gc_enabled=false
@@ -120,7 +120,7 @@
 /instance/org.eclipse.jdt.ui/sp_cleanup.convert_functional_interfaces=false
 /instance/org.eclipse.jdt.ui/sp_cleanup.convert_to_enhanced_for_loop=false
 /instance/org.eclipse.jdt.ui/sp_cleanup.correct_indentation=false
-/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code=true
+/instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code=false
 /instance/org.eclipse.jdt.ui/sp_cleanup.format_source_code_changes_only=false
 /instance/org.eclipse.jdt.ui/sp_cleanup.insert_inferred_type_arguments=false
 /instance/org.eclipse.jdt.ui/sp_cleanup.make_local_variable_final=true
